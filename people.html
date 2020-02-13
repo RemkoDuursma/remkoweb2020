@@ -1,72 +1,127 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8"/>
-<style>body{background-color:white;}</style>
 
-<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	<meta charset="utf-8"/>
 
+	<style>body{background-color:white;}</style>
+
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	<script src="https://kit.fontawesome.com/4d58bc42dd.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" type="text/css", href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.6/css/flag-icon.min.css"/>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"/>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+	<link href="https://fonts.googleapis.com/css?family=Hind&display=swap" rel="stylesheet">
+
+	<script type="text/javascript">
+
+		window.onload = function() {
+
+			let lnk = document.getElementById("sendemaillink");
+
+			lnk.onclick = function() {
+				window.open('mailto:test@example.com?subject="DataPelikaan Contact"&body=""');  
+				return false;
+			}
+		}
+	</script>
 
 
 
 </head>
 <body>
-  <header>
-    <div class="site-branding">
-      <div class="site-logo">~DataPelikaan</div>
-    </div>
-
-<nav class="navbar navbar-expand-md navbar-dark bg-dark">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">R Training</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link  active" href="#">People</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Contact</a>
-      </li>
-    </ul>
-    
-  </div>
-</nav>
-  </header>
-  <div class="main-content">
-    
-    
-    
-    <div class="container">
-      
-      <div class="row mb-3">
-        
-        <div class="col-lg-6">
-			    <div style="display: table; height: 200px; overflow: hidden;">
-			    <div style="display: table-cell; vertical-align: middle;">
-			    <div>
-			      
-
-			      
-			    </div>
-			  </div>
-			</div>
+	<header>
+		<div class="site-branding">
+			<div class="site-logo">~DataPelikaan</div>
 		</div>
-    <div class="col-lg-6">
-          <img src="assets/img/tilde.png" height ="200" class="iconimage">
-    </div>
-	</div>
-	<hr>
 
-  </div>
-  </div>
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">R Training</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link  active" href="people.html">People</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+
+			</div>
+		</nav>
+	</header>
+	<div class="main-content">
+
+		<h3 class="pageheader">Contact</h3>
+		<hr class="main-hr"/>
+
+
+		<div class="container">
+
+			<div class="row mb-3">
+
+				<div class="col-lg-12">
+					<div style="display: table; height: 200px; overflow: hidden;">
+						<div style="display: table-cell; vertical-align: middle;">
+							<div>
+
+<p> <img src="assets/img/remko_waterval.png" height ="300" style="float:right;"> I am Remko Duursma, Data Scientist, R Trainer & Consultant. After a career in science, I now focus on practical applications in data science, and offering trainings on a variety of topics.</p> 
+
+<p>I have organized, taught, and prepared all course materials for many often highy customized R workshops. During the period 2012 – 2018 I organized a popular R course at Western Sydney University, which generated a lot of interest outside the university. Next to my employment as a data scientist I now teach R courses - from beginner to advanced.</p>
+
+<p>I bring the following expertise to the workshops and courses at DataPelikaan:</p>
+
+<ul>
+	<li><span class="liheader">Project Management In R.</span> I have a lot of experience in organizing, structuring, and maintaining large, complex data projects in R. The challenge is to set up transparent, repeatable and robust projects – much more than just an R script. I have mastered many techniques - some my own - to improve reliability and transparency of complex R projects.</li>
+	<li><span class="liheader">Interactive Data-driven Web Applications with R/Shiny.</span> I am highly skilled in developing interactive web applications, bringing together data, visualizations, reporting, and automating tasks.</li>
+	<li><span class="liheader">R Packages.</span> I have developed more than 10 R packages that make complex, often specialized analyses more accessible. Developing your own R packages is an invaluable tool to help organize complex workflows, and to generate robust testable code.</li>
+</ul>
+
+
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-12">
+
+					<div class="centerblock_wrapper">
+					<div class = "centerblock"><span class="flag-icon flag-icon-nl" style = "font-size:2em;vertical-align:middle;"></span><span>  I am a native Dutch speaker, and a fluent English speaker  </span><span class="flag-icon flag-icon-gb" style = "font-size:2em;vertical-align:middle;"></span></div>
+</div>
+
+
+					<div class="centerblock_wrapper">
+<div class = "centerblock">
+					<a href="http://www.remkoduursma.com/pages/bio/" target="_blank"><p style = "font-size: 1.1em;"><i class="fas fa-tree" style="color: #255610; font-size: 1.6em;"></i> Read my full bio here.</p></a>
+<p>View my collection of R code on <a href="https://bitbucket.org/remkoduursma/" target="_blank"><i class="fab fa-github-square" style="font-size: 1.5em;"></i> Github</a>. and <a href="https://github.com/remkoduursma" target="_blank"><i class="fab fa-bitbucket" style="font-size: 1.5em; color: rgb(7, 71, 166);"></i> Bitbucket</a></p>
+</div>
+</div>
+
+
+				</div>
+
+				<div class="col-lg-12">
+					<img src="assets/img/tilde.png" height ="200" class="iconimage">
+				</div>
+			</div>
+
+			<hr>
+
+		</div>
+	</div>
 </div>
 </div>
 </body>

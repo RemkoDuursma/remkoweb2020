@@ -20,6 +20,10 @@
   position: relative;
 }
 
+.liheader{
+  font-weight: 700;
+}
+
 .image-cover-text{
   color: white;
   font-size: 3em;
@@ -64,6 +68,14 @@ h1, h2, h3{
   font-size: 1.1em;
 }
 
+.pcenter{
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.pageheader{
+  padding: 30px;
+}
 .interestedlink-container{
   text-align: center;
   font-size: 1.4em;
@@ -73,6 +85,16 @@ h1, h2, h3{
 .iconimage{
   display:block;
   margin:auto;
+}
+
+.centerblock_wrapper{
+  text-align: center;
+}
+.centerblock{
+  display: inline-block;
+  margin: auto; 
+  padding-top: 20px; 
+  padding-bottom: 20px;
 }
 
 .site-logo{
